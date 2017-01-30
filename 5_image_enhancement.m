@@ -24,7 +24,7 @@ I1 = im2double(im1);
 % 'uint8' or normalize it before feeding it to "imshow".
 
 imgfil1 = medfilt2(I1);
-%imgshow(imgfil1);
+imshow(imgfil1);
 
 
 
@@ -35,7 +35,7 @@ imgfil1 = medfilt2(I1);
 % image and the 1-pass filtered image.
 
 imgfil2 = medfilt2(imgfil1);
-%imgshow(imgfil2);
+imshow(imgfil2);
 
 
 im2 = imread('digital-images-week5_quizzes-original.jpg');
